@@ -1,0 +1,25 @@
+{
+  "name": "hm1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AslanovRustam/Node.js.git"
+  },
+  "author": "Aslanov Rustam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AslanovRustam/Node.js/issues"
+  },
+  "homepage": "https://github.com/AslanovRustam/Node.js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
