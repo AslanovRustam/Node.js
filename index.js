@@ -1,3 +1,37 @@
-import contacts from "./contacts.js";
+import yargs from "yargs";
+import { hideBin } from "yargs/helpers";
 
-console.log(contacts);
+import {
+  listContacts,
+  getContactById,
+  removeContact,
+  addContact,
+} from "./contacts.js";
+
+const argv = yargs(hideBin(process.argv)).argv;
+
+// TODO: рефакторить
+function invokeAction({ action, id, name, email, phone }) {
+  switch (action) {
+    case "list":
+      // ...
+      break;
+
+    case "get":
+      // ... id
+      break;
+
+    case "add":
+      // ... name email phone
+      break;
+
+    case "remove":
+      // ... id
+      break;
+
+    default:
+      console.warn("\x1B[31m Unknown action type!");
+  }
+}
+
+invokeAction(argv);
