@@ -73,6 +73,7 @@ export function addContact(name, email, phone) {
       phone,
     };
     contactList.push(newContact);
+    console.table(contactList);
   });
 }
 
