@@ -19,7 +19,10 @@
     "url": "https://github.com/AslanovRustam/Node.js/issues"
   },
   "homepage": "https://github.com/AslanovRustam/Node.js#readme",
-  "dependencies": {},
+  "dependencies": {
+    "shortid": "^2.2.16",
+    "yargs": "^16.2.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
